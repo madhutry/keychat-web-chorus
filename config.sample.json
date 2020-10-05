@@ -1,39 +1,44 @@
 {
     "default_server_config": {
         "m.homeserver": {
-            "base_url": "https://matrix.org",
+            "base_url": "https://chat.frieze.in/",
             "server_name": "matrix.org"
         },
         "m.identity_server": {
             "base_url": "https://vector.im"
         }
     },
-    "disable_identity_server": false,
+    "disable_identity_server": true,
     "disable_custom_urls": false,
     "disable_guests": false,
     "disable_login_language_selector": false,
-    "disable_3pid_login": false,
-    "brand": "Riot",
+    "disable_3pid_login": true,
+    "brand": "Frieze",
     "integrations_ui_url": "https://scalar.vector.im/",
     "integrations_rest_url": "https://scalar.vector.im/api",
     "integrations_jitsi_widget_url": "https://scalar.vector.im/api/widgets/jitsi.html",
     "bug_report_endpoint_url": "https://riot.im/bugreports/submit",
     "defaultCountryCode": "GB",
     "showLabsSettings": false,
+    "branding":{
+        "welcomeBackgroundUrl":"themes/riot/img/backgrounds/mumbai-1370023_1280.png",
+        "authHeaderLogoUrl":"themes/riot/img/logos/frieze_logo.png",
+        "authFooterLinks":[]
+    },
     "features": {
         "feature_groups": "labs",
         "feature_pinning": "labs",
         "feature_reactions": "labs",
         "feature_message_editing": "labs"
     },
-    "default_federate": true,
+    "default_federate": false,
     "default_theme": "light",
     "roomDirectory": {
         "servers": [
             "matrix.org"
         ]
     },
-    "welcomeUserId": "@riot-bot:matrix.org",
+    "welcomeUserId": "@frieze.in",
     "piwik": {
         "url": "https://piwik.riot.im/",
         "whitelistedHSUrls": ["https://matrix.org"],
