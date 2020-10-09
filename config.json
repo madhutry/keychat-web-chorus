@@ -1,11 +1,11 @@
 {
     "default_server_config": {
         "m.homeserver": {
-            "base_url": "https://chat.frieze.in/",
+            "base_url": "http://localhost:8008/",
             "server_name": "matrix.org"
         },
         "m.identity_server": {
-            "base_url": "https://vector.im"
+            "base_url": "https://localhost:8008/"
         }
     },
     "disable_identity_server": true,
